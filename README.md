@@ -1,7 +1,7 @@
 # CS368
 NaiveBayes Classifier in CPP
 	
-	// STEP 0 : import the NAIVE BAYES class
+	//STEP 0 : import the NAIVE BAYES class
 	#include "NaiveBayes.h"
 
 	//STEP 1: create an object for the NaiveBayes Classifier
@@ -13,8 +13,8 @@ NaiveBayes Classifier in CPP
 
 	//Time for prediction
 
-	//STEP 5: Predict the label of the features !!!
+	//STEP 3: Predict the label of the features !!!
 	string predicted =  nB.predict(featureList);//featureList is vector<std::string>
 
-	//STEP 6: Print the predicted feature
+	//STEP 4: Print the predicted feature
 	cout<<"Predicted class = "<<predicted;
