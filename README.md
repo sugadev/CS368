@@ -1,10 +1,11 @@
 # CS368
 NaiveBayes Classifier in CPP
-  // STEP 0 : import the NAIVE BAYES class
-  #include "NaiveBayes.h"
+	
+	// STEP 0 : import the NAIVE BAYES class
+	#include "NaiveBayes.h"
 
-  //STEP 1: create an object for the NaiveBayes Classifier
-    NaiveBayes nB;
+	//STEP 1: create an object for the NaiveBayes Classifier
+	NaiveBayes nB;
 
 	//STEP 2: start the training by providing the training file name
 	nB.train("train1.arff");
