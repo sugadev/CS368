@@ -18,3 +18,5 @@ NaiveBayes Classifier in CPP
 
 	// STEP 4: Print the predicted feature
 	cout<<"Predicted class = "<<predicted;
+
+NOTE: sample demo is given in the ClassifierDemo.cpp 
